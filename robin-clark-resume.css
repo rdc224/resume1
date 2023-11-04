@@ -1,24 +1,39 @@
+.marginBottom {margin-bottom: 0.2em;}
+.marginLeft {margin-left: 4em;}
+.marginLeft2 {margin-left: 3em;} */
 .center1 {
     text-align: center;
     font-size: 1.7rem;
     font-weight: bold;
 }
 .center2{text-align: center;}
+.city{
+    font-weight: normal;
+}
 .grid {
     display: grid; 
     font-size: 1.5rem;
     font-weight: bold;
-    grid-template-columns: 1fr 1fr; 
+    grid-template-columns: 2fr 1fr; 
     grid-template-rows:  1fr;
     margin-left: 2em;
+    width: 8in;
 }
 .gridCol1 {
     grid-column: 1;
     grid-row: 1;
 }
-.gridCol2 {
+/* .gridCol1Row2 {
+    grid-column: 1;
+    grid-row: 2;
+}
+ */.gridCol2 {
     grid-column: 2;
     grid-row: 1;
+    text-align: right;
+}
+.jobTitle {
+    font-weight: bold;
 }
 .left{
     display:inline-block;
@@ -54,6 +69,7 @@ ul {
     margin-top: 0;
 }
 p {  
+    /* margin-bottom: 0px; */
     margin-left: 3em;
     margin-top: 0;
     font-size: 1.3rem;
