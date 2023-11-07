@@ -1,12 +1,16 @@
 .marginBottom {margin-bottom: 0.2em;}
 .marginLeft {margin-left: 4em;}
-.marginLeft2 {margin-left: 3em;} */
+.marginLeft2 {margin-left: 3em;} 
+.marginLeft3 {margin-left: 0em;} 
 .center1 {
     text-align: center;
     font-size: 1.7rem;
     font-weight: bold;
 }
-.center2{text-align: center;}
+.center2{
+    text-align: center;
+    font-size: 1.7rem;
+}
 .city{
     font-weight: normal;
 }
